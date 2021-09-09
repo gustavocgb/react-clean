@@ -15,3 +15,6 @@ tsc --init
 tags jest
   --findRelatedTests
     rodar somente arquivos alterados
+
+
+    
