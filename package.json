@@ -7,7 +7,14 @@
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage",
+    "test:husky": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint 'src/**' --fix",
+      "npm run test:staged"
+    ]
   },
   "keywords": [],
   "author": "",
