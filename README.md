@@ -4,6 +4,8 @@ npm i -D eslint eslint-config-standard-with-typescript@11 eslint-plugin-import e
 lint-staged
 
 husky
+  criar
+    npx husky-init
 
 jest:
 npm i -D jest @types/jest ts-jest
